@@ -38,3 +38,53 @@
     width: 200px;
     margin-left: 40%;
 }
+
+/* styling section 2 */
+
+.section-2-container{
+    margin: 150px auto;
+    max-width: 800px;
+}
+.section-2-title{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-2-text{
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.box{
+    color: #707070;
+    font-size: 40px;
+    font-weight: 600;
+    height: 100px;
+    width: 150px;
+    border: 0;
+    border-radius: 5px;
+    background: #FAFAFA;
+    text-align: center;
+    padding-top: 50px;
+}
+#box-2:hover{
+    color: #FF5959;
+    border: 1px solid #FF5959;
+    background: #FFEEEE;
+}
+.donate-amount{
+    Border: 0;
+    border-bottom: 1px solid #DADADA;
+    color: #B3B3B3;
+    font-size: 25px;
+    width: 800px;
+    text-align: center;
+    /* margin-left: 350px; */
+}
